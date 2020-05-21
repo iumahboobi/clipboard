@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    color: hsl(210, 10%, 33%);
+}
+
+.padding {
+    padding: 4%;
+}
+
+.margin-lg {
+    margin: 5% auto 0%;
+}
+
+.img-width img {
+    width: 100%;
+}
+
+.para-center {
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+}
+
+.green-button {
+    padding: 12px 24px;
+    color: white;
+    background-color: hsl(171, 66%, 44%);
+    border: none;
+    border-radius: 42px;
+}
+
+.green-button:hover {
+    background-color: darkcyan;
+    cursor: pointer;
+}
+
+.light-blue-button {
+    padding: 12px 24px;
+    color: white;
+    background-color: hsl(233, 100%, 69%);
+    border: none;
+    border-radius: 42px;
+}
+
+.light-blue-button:hover {
+    background-color: hsl(233, 100%, 62%);
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1044px;
+    margin: 0 auto;
+    background-color: none;
+}
+
+.medium-box {
+    width: 70%;
+    height: auto;
+    margin: 5% auto;
+}
+
+.large-box {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.contents {
+    display: grid;
+    grid-gap: 20px;
+    justify-items: center;
+    margin: 0 auto;
+}
+
+.logo-width img {
+    width: 100%;
+}
+
+.medium-box img {
+    width: 100%;
+}
+
+.grid-col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-col-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-col-5 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 24px;
+}
+
+.grid-row {
+    display: grid;
+    grid-gap: 5%;
+}
+
+.row-half-width {
+    width: 60%;
+}
+
+.computer-image {
+    width: 100%;
+}
+
+.computer-image img {
+    width: 100%;
+    transform: translateX(-5%);
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-column img {
+    width: 100%;
+    max-width: 50px;
+}
+
+.footer {
+    background-color: #f5f6f8;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 40%;
+    grid-template-rows: max-content;
+    height: 100%;
+    width: 100%;
+    grid-gap: 4%;
+    overflow: hidden;
+}
+
+.footer-logo img {
+    width: 50%;
+    max-width: 125px;
+}
+
+.nav-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-flex a {
+    padding: 4%;
+}
+
+.social-media img {
+    padding: 0 3%;
+    margin-top: 5%;
+}
